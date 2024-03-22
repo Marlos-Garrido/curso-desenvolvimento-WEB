@@ -1,0 +1,15 @@
+h1{
+    font-family: "Workbench";
+    font-size: xx-large;
+}
+
+#paragraph1 {
+    font-size: 15pt;
+    color: red;
+}
+
+#paragraph2 {
+    color: green;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 20pt;
+}

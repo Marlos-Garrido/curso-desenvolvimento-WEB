@@ -1,0 +1,22 @@
+h1{
+    font-family: "Workbench";
+    font-size: xx-large;
+}
+
+#paragraph1 {
+    color: red;
+}
+
+#paragraph2 {
+    font-size: 20pt;
+}
+
+#paragraph3 {
+    font-weight: bolder;
+}
+#paragraph4 {
+    font-family: "caveat", cursive;
+}
+#paragraph5 {
+    /* text-align: center; */
+}
