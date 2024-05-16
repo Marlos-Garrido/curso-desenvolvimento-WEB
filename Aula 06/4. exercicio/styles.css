@@ -1,0 +1,62 @@
+/* Fazer a bandeira do Brasil */
+.brasil-flag {
+    position: relative;
+    background-color: #16b83e;
+    width: 250px;
+    height: 150px;
+  }
+
+  .brasil-flag .losangue:before,
+.brasil-flag .losangue:after {
+  position: absolute;
+}
+
+.brasil-flag .losangue {
+  width: 100%;
+  height: 100%;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+
+.brasil-flag .losangue:before,
+.brasil-flag .losangue:after {
+  content: '';
+  width: 0;
+  height: 0;
+  left: 20px;
+  right: 20px;
+}
+
+.brasil-flag .losangue:before {
+  border-left: 105px solid transparent;
+  border-right: 105px solid transparent;
+  border-bottom: 65px solid #ffe11f;
+  top: 10px;
+}
+
+.brasil-flag .losangue:after {
+  border-left: 105px solid transparent;
+  border-right: 105px solid transparent;
+  border-top: 65px solid #ffe11f;
+  bottom: 10px;
+}
+
+.brasil-flag .circle {
+    overflow: hidden;
+    z-index: 2;
+    display: block;
+    background-color: #1651b8;
+    height: 80px;
+    width: 80px;
+    margin-top: -40px;
+    margin-left: -40px;
+  
+    top: 50%;
+    left: 50%;
+    position: absolute;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+  }

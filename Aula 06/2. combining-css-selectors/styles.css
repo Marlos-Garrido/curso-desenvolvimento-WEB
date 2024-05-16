@@ -1,0 +1,22 @@
+/* combinação de 2 seletores*/
+h1, h2 {
+    color: blueviolet;
+}
+
+/* Escolhendo um seletor filho. */
+.caixa > p {
+    color: firebrick;
+}
+
+.caixa li {
+    color: blue;
+}
+
+li.realizado {
+    color: green;
+}
+
+/* Combinando combinações. */
+ul p.realizado {
+    font-size: 5pt;
+}
