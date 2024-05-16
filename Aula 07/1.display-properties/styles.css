@@ -1,0 +1,45 @@
+p {
+    color: white;
+}
+
+.red1 {
+    height: 200px;
+    width: 200px;
+    background-color: red;
+    display: block;
+}
+
+.green1 {
+    height: 200px;
+    width: 200px;
+    background-color: green;
+    display: block;
+}
+
+.blue1 {
+    height: 200px;
+    width: 200px;
+    background-color: blue;
+    display: block;
+}
+
+.red2 {
+    height: 200px;
+    width: 200px;
+    background-color: red;
+    display: inline-block;
+}
+
+.green2 {
+    height: 200px;
+    width: 200px;
+    background-color: green;
+    display: inline-block;
+}
+
+.blue2 {
+    height: 200px;
+    width: 200px;
+    background-color: blue;
+    display: inline-block;
+}
