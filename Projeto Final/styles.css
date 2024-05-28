@@ -18,9 +18,8 @@ h1 {
     background-image: url("./assets/images/crash.png");
 }
 
-
 .s {
-    background-image: url("./assets/images/ton1.png");
+    background-image: url("./assets/images/tom1.png");
 }
 
 .d {
@@ -28,11 +27,11 @@ h1 {
 }
 
 .j {
-    background-image: url("./assets/images/ton3.png");
+    background-image: url("./assets/images/tom3.png");
 }
 
 .k {
-    background-image: url("./assets/images/ton2.png");
+    background-image: url("./assets/images/tom2.png");
 }
 
 .l {
@@ -65,4 +64,10 @@ footer {
 .pressed {
     box-shadow: 0 3px 4px 0 #DBEDF3;
     opacity: 0.5;
+}
+
+.pressed {
+    /* Adicione estilos de animação aqui */
+    background-color: #ccc; /* Exemplo de mudança de cor */
+    transform: scale(0.9); /* Exemplo de escala */
 }
